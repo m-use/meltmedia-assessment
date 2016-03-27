@@ -1,6 +1,7 @@
 module.exports = function(grunt) {
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
+
 		/*Sass task*/
 		sass: {
 			dev: {
@@ -9,7 +10,7 @@ module.exports = function(grunt) {
 					sourcemap: 'none'
 				},
 				files: {
-					'_/compiled/style-expanded.css' : '_/components/sass/style.scss'
+					'_/compiled/css/style-expanded.css' : '_/components/sass/style.scss'
 				}
 			},
 			dist: {
@@ -18,12 +19,12 @@ module.exports = function(grunt) {
 					sourcemap: 'none'
 				},
 				files: {
-					'_/compiled/style.css' : '_/components/sass/style.scss'
+					'_/compiled/css/style.css' : '_/components/sass/style.scss'
 				}
 			}
 		},
 
-		/* Autoprefixer */
+		/* Autoprefixer task */
 		autoprefixer: {
 			options: {
 				browsers: ['last 2 versions']
@@ -31,7 +32,7 @@ module.exports = function(grunt) {
 			multiple_files: {
 				expand: true,
 				flatten: true,
-				src: '_/compiled/*.css',
+				src: '_/compiled/css/*.css',
 				dest: '_css/'
 			}
 		},
