@@ -137,7 +137,7 @@ a:hover {
   user-select: none;
 }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 60em) {
   .js .nav-collapse {
     position: relative;
   }
@@ -165,8 +165,8 @@ header {
   -webkit-tap-highlight-color: transparent;
   text-decoration: none;
   font-weight: bold;
-  line-height: 55px;
-  padding: 0 20px;
+  height: 57px;
+  padding: 6px 20px;
   color: #fff;
   float: left;
 }
@@ -199,7 +199,7 @@ header {
   opacity: 1;
 }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 60em) {
   .mask {
     display: none !important;
     opacity: 0 !important;
@@ -229,7 +229,7 @@ header {
   float: left;
 }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 60em) {
   .nav-collapse {
     float: right;
     width: auto;
@@ -240,7 +240,12 @@ header {
   width: 100%;
 }
 
-@media screen and (min-width: 40em) {
+.nav-collapse a:active,
+.nav-collapse .active a {
+  background-color: #333333;
+}
+
+@media screen and (min-width: 60em) {
   .nav-collapse li {
     width: auto;
   }
@@ -249,16 +254,14 @@ header {
   -webkit-tap-highlight-color: transparent;
   border-top: 1px solid white;
   text-decoration: none;
-  padding: 0.7em 1em;
+  padding: 1.3em 1em;
   color: #fff;
   width: 100%;
   float: left;
 }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 60em) {
   .nav-collapse a {
-    border-left: 1px solid white;
-    padding: 1.02em 2em;
     text-align: center;
     border-top: 0;
     float: left;
@@ -270,9 +273,14 @@ header {
   padding-left: 2em;
 }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 60em) {
   .nav-collapse ul ul a {
     display: none;
+  }
+
+  #main-nav-container {
+    width: 85%;
+    margin: 0 11% 0 4%;
   }
 }
 /* ------------------------------------------
@@ -318,6 +326,7 @@ header {
   font-size: 24px;
   content: "\78";
   /* Close icon */
+  font-family: 'helvetica', arial, sans-serif;
 }
 
 body {
@@ -343,9 +352,40 @@ h1 {
   line-height: 3.1rem;
 }
 
+/*
+****** NAV ******
+*/
+@media screen and (max-width: 50em) {
+  #main-nav-container {
+    width: 100%;
+  }
+}
+header {
+  background-color: #89b8ea;
+}
+
+nav a {
+  font-size: 1rem;
+  color: #ffffff;
+  font-family: "adelle", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/*
+****** HEAD ******
+*/
 #head {
   background-image: url("../_images/meltmedia-superhero.png");
   background-size: cover;
   background-position: center center;
   color: #ffffff;
+  padding: 150px 9% 100px 12%;
+  width: 79%;
 }
+
+/*
+****** WORK ******
+*/
