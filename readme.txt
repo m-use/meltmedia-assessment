@@ -19,3 +19,13 @@ ASSESSMENT:
 OPTIONAL:
 
 - Use a task runner such as grunt or gulp to serve up your breakout locally, with instructions on how to get it running.
+
+
+
+DESIGN CHANGES:
+
+- Added a period to the end of each h2 for more consistency.
+
+- Changed "We create a experiences..." to "We create experiences..." in the Culture section.
+
+- Changed "Lets be friends" to "Let's be friends" in the Contact section.
