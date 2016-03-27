@@ -3,7 +3,7 @@ body {
 	color: $grey;
 	font-family: $font-primary;
 	font-size: 1.1rem;
-	line-height: 160%;
+	line-height: 170%;
 	font-weight: 300;
 }
 
@@ -32,7 +32,7 @@ h1 {
 }
 
 header {
-	background-color: $brandblue;
+	background-color: rgba(0, 0, 0, .6);
 }
 
 nav a {
@@ -65,5 +65,13 @@ nav a {
 ****** WORK ******
 */
 #work {
-
+	article {
+		width: 45%;
+		float: left;
+		margin-right: 5%;
+		p {
+			font-family: $font-primary;
+			font-weight: 300;
+		}
+	}
 }
