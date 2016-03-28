@@ -7,6 +7,10 @@ body {
 	font-weight: 300;
 }
 
+.clear {
+	clear: both;
+}
+
 h1, h2, h3, h5, h6, {
 	font-family: $font-secondary;
 	font-weight: 300;
@@ -25,7 +29,7 @@ h1 {
 ****** NAV ******
 */
 
-@media screen and (max-width: 50em) {
+@media screen and (max-width: 850px) {
 	#main-nav-container {
 		width: 100%;
 	}
@@ -66,12 +70,15 @@ nav a {
 */
 #work {
 	article {
-		width: 45%;
+		width: 38%;
 		float: left;
 		margin-right: 5%;
 		p {
 			font-family: $font-primary;
 			font-weight: 300;
 		}
+	}
+	#viewports-img {
+		float: right;
 	}
 }
