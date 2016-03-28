@@ -137,7 +137,7 @@ a:hover {
   user-select: none;
 }
 
-@media screen and (min-width: 775px) {
+@media screen and (min-width: 650px) {
   .js .nav-collapse {
     position: relative;
   }
@@ -198,7 +198,7 @@ header {
   opacity: 1;
 }
 
-@media screen and (min-width: 775px) {
+@media screen and (min-width: 650px) {
   .mask {
     display: none !important;
     opacity: 0 !important;
@@ -228,7 +228,7 @@ header {
   float: left;
 }
 
-@media screen and (min-width: 775px) {
+@media screen and (min-width: 650px) {
   .nav-collapse {
     float: right;
     width: auto;
@@ -244,7 +244,7 @@ header {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-@media screen and (min-width: 775px) {
+@media screen and (min-width: 650px) {
   .nav-collapse li {
     width: auto;
   }
@@ -259,7 +259,7 @@ header {
   float: left;
 }
 
-@media screen and (min-width: 775px) {
+@media screen and (min-width: 650px) {
   .nav-collapse a {
     text-align: center;
     border-top: 0;
@@ -272,7 +272,7 @@ header {
   padding-left: 2em;
 }
 
-@media screen and (min-width: 775px) {
+@media screen and (min-width: 650px) {
   .nav-collapse ul ul a {
     display: none;
   }
@@ -364,7 +364,7 @@ h1 {
 /*
 ****** NAV ******
 */
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 650px) {
   #main-nav-container {
     width: 100%;
   }
@@ -403,6 +403,9 @@ nav a {
 /*
 ****** WORK ******
 */
+#work {
+  padding-top: 25px;
+}
 #work article {
   width: 40%;
   float: left;

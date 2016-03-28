@@ -29,7 +29,7 @@ h1 {
 ****** NAV ******
 */
 
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 650px) {
 	#main-nav-container {
 		width: 100%;
 	}
@@ -71,6 +71,7 @@ nav a {
 ****** WORK ******
 */
 #work {
+	padding-top: 25px;
 	article {
 		width: 40%;
 		float: left;

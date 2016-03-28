@@ -29,3 +29,7 @@ DESIGN CHANGES:
 - Changed "We create a experiences..." to "We create experiences..." in the Culture section.
 
 - Changed "Lets be friends" to "Let's be friends" in the Contact section.
+
+- Set nav bar to have a background color so that it is visible as you scroll down.
+
+- Removed "Home" link because it takes you to the same section as the "Work" link.
