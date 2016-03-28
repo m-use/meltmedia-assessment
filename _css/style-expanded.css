@@ -134,7 +134,7 @@ a:hover {
   user-select: none;
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 775px) {
   .js .nav-collapse {
     position: relative;
   }
@@ -162,8 +162,7 @@ header {
   -webkit-tap-highlight-color: transparent;
   text-decoration: none;
   font-weight: bold;
-  height: 57px;
-  padding: 7px 20px;
+  padding: 16px 20px 7px;
   color: #fff;
   float: left;
 }
@@ -193,7 +192,7 @@ header {
   opacity: 1;
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 775px) {
   .mask {
     display: none !important;
     opacity: 0 !important;
@@ -221,7 +220,7 @@ header {
   float: left;
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 775px) {
   .nav-collapse {
     float: right;
     width: auto;
@@ -237,7 +236,7 @@ header {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 775px) {
   .nav-collapse li {
     width: auto;
   }
@@ -252,7 +251,7 @@ header {
   float: left;
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 775px) {
   .nav-collapse a {
     text-align: center;
     border-top: 0;
@@ -265,7 +264,7 @@ header {
   padding-left: 2em;
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 775px) {
   .nav-collapse ul ul a {
     display: none;
   }
@@ -357,7 +356,7 @@ h1 {
 /*
 ****** NAV ******
 */
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 775px) {
   #main-nav-container {
     width: 100%;
   }
@@ -367,13 +366,18 @@ header {
 }
 
 nav a {
-  font-size: 1rem;
+  font-size: .9rem;
   color: #ffffff;
   font-family: "adelle", serif;
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.logo img {
+  width: 35px;
+  height: auto;
 }
 
 /*
@@ -384,17 +388,17 @@ nav a {
   background-size: cover;
   background-position: center center;
   color: #ffffff;
-  padding: 150px 9% 100px 12%;
-  width: 79%;
+  padding: 150px 0 50px 0;
+  width: 100%;
 }
 
 /*
 ****** WORK ******
 */
 #work article {
-  width: 38%;
+  width: 40%;
   float: left;
-  margin-right: 5%;
+  margin-left: 11%;
 }
 #work article p {
   font-family: "helvetica", arial, sans-serif;
@@ -402,4 +406,7 @@ nav a {
 }
 #work #viewports-img {
   float: right;
+  width: 35%;
+  height: auto;
+  margin-right: 8%;
 }

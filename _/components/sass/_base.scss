@@ -29,7 +29,7 @@ h1 {
 ****** NAV ******
 */
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 775px) {
 	#main-nav-container {
 		width: 100%;
 	}
@@ -40,16 +40,18 @@ header {
 }
 
 nav a {
-	font-size: 1rem;
+	font-size: .9rem;
 	color: $white;
 	font-family: $font-secondary;
 	font-weight: 400;
 	font-style: normal;
 	text-decoration: none;
 	text-transform: uppercase;
-	// &:hover {
-	// 	border-bottom: 2px solid $darkgrey;
-	// }
+}
+
+.logo img {
+	width: 35px;
+	height: auto;
 }
 
 /*
@@ -61,8 +63,8 @@ nav a {
 	background-size: cover;
 	background-position: center center;
 	color: $white;
-	padding: 150px 9% 100px 12%;
-	width: 79%;
+	padding: 150px 0 50px 0;
+	width: 100%;
 }
 
 /*
@@ -70,9 +72,10 @@ nav a {
 */
 #work {
 	article {
-		width: 38%;
+		width: 40%;
 		float: left;
-		margin-right: 5%;
+		margin-left: 11%;
+		// margin-right: 5%;
 		p {
 			font-family: $font-primary;
 			font-weight: 300;
@@ -80,5 +83,8 @@ nav a {
 	}
 	#viewports-img {
 		float: right;
+		width: 35%;
+		height: auto;
+		margin-right: 8%;
 	}
 }
