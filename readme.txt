@@ -30,6 +30,6 @@ DESIGN CHANGES:
 
 - Changed "Lets be friends" to "Let's be friends" in the Contact section.
 
-- Set nav bar to have a background color so that it is visible as you scroll down.
+- Changed nav design so that the links are visible as you scroll down.
 
-- Removed "Home" link because it takes you to the same section as the "Work" link.
+- Removed "Home" main nav link because it takes you to the same section as the "Work" link. The logo will bring you to the top as well.
