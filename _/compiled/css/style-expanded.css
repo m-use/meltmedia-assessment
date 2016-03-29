@@ -244,7 +244,7 @@ header {
 
 .nav-collapse a:active,
 .nav-collapse .active a {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (min-width: 650px) {
@@ -396,7 +396,7 @@ p {
   }
 }
 header {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(72, 72, 72, 0.8);
 }
 
 nav a {
@@ -582,4 +582,88 @@ nav a {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+/*
+****** CONTACT ******
+*/
+@media screen and (max-width: 475px) {
+  #contact-details {
+    width: 80%;
+    padding: 30px 5%;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 476px) {
+  #contact-details {
+    padding: 30px;
+  }
+}
+@media screen and (min-width: 476px) and (max-width: 650px) {
+  #contact-details {
+    width: 40%;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 651px) and (max-width: 895px) {
+  #contact-details {
+    width: 30%;
+    margin-left: 11%;
+  }
+}
+@media screen and (min-width: 896px) {
+  #contact-details {
+    width: 21%;
+    margin-left: 11%;
+  }
+}
+#location-map {
+  background-image: url("../_images/meltmedia-map.png");
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+  padding: 90px 0 70px 0;
+  width: 100%;
+}
+#location-map #contact-details {
+  background-color: rgba(72, 72, 72, 0.8);
+  font-size: .9rem;
+  line-height: 120%;
+}
+#location-map #contact-details a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: all ease 0.8s;
+}
+#location-map #contact-details a:hover, #location-map #contact-details a:active {
+  color: #ffffff;
+  text-decoration: underline;
+}
+#location-map #contact-details h3 {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+#location-map #contact-details h4 {
+  font-size: .9rem;
+  font-weight: 600;
+}
+#location-map #contact-details p {
+  margin-bottom: 15px;
+}
+#location-map #contact-details ul {
+  margin-top: 20px;
+  font-size: 2.2rem;
+}
+#location-map #contact-details ul li:nth-child(2), #location-map #contact-details ul li:nth-child(3), #location-map #contact-details ul li:nth-child(4) {
+  display: inline;
+  width: 25%;
+  float: right;
+}
+#location-map #contact-details ul li {
+  width: 25%;
+  float: left;
+}
+#location-map #contact-details ul a:hover, #location-map #contact-details ul a:active {
+  text-decoration: none;
+  text-shadow: #000000 2px 2px;
 }
