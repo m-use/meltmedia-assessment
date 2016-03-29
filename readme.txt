@@ -33,3 +33,17 @@ DESIGN CHANGES:
 - Changed nav design so that the links are visible as you scroll down.
 
 - Removed "Home" main nav link because it takes you to the same section as the "Work" link. The logo will bring you to the top as well.
+
+
+
+INSTRUCTIONS:
+
+Prerequisites: Node, Grunt, and SASS must be installed.
+
+- Navigate to the project folder in the command line.
+
+- $ npm install
+
+- $ grunt
+
+- Enter localhost:3000 into a browser's address bar.
