@@ -125,14 +125,32 @@ nav a {
 }
 
 @media screen and (max-width: 650px) {
-	#work article h1 {
-		width: 90%;
+	#work {
+		article h1 {
+			width: 90%;
+		}
+	}
+	#viewports-img {
+		float: none;
+		width: 50%;
+		height: auto;
+		margin: auto;
+		display: block;
 	}
 }
 
 @media screen and (min-width: 651px) and (max-width: 895px) {
-	#work article h1 {
-		width: 70%;
+	#work {
+		article h1 {
+			width: 70%;
+		}
+		#viewports-img {
+			float: none;
+			width: 30%;
+			height: auto;
+			margin: auto;
+			display: block;
+		}
 	}
 }
 
@@ -151,13 +169,6 @@ nav a {
 				text-align: left;
 				margin-bottom: 35px;
 			}
-		}
-		#viewports-img {
-			float: none;
-			width: 30%;
-			height: auto;
-			margin: auto;
-			display: block;
 		}
 	}
 }
@@ -192,5 +203,23 @@ nav a {
 		width: 60%;
 		text-align: center;
 		padding: 60px 20%;
+	}
+}
+
+/*
+****** LABS ******
+*/
+
+#labs {
+	text-align: center;
+	background-image: url('../_images/meltmedia-office.png');
+	background-size: cover;
+	background-position: center center;
+	color: $white;
+	padding: 100px 0 75px 0;
+	width: 100%;
+	h2 {
+		font-size: 2rem;
+		margin-bottom: 25px;
 	}
 }

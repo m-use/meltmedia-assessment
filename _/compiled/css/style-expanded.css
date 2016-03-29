@@ -379,6 +379,7 @@ p {
   padding: 15px 40px;
   text-decoration: none;
   color: #ffffff;
+  display: inline-block;
   cursor: pointer;
   transition: all ease 0.8s;
 }
@@ -464,10 +465,25 @@ nav a {
   #work article h1 {
     width: 90%;
   }
+
+  #viewports-img {
+    float: none;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    display: block;
+  }
 }
 @media screen and (min-width: 651px) and (max-width: 895px) {
   #work article h1 {
     width: 70%;
+  }
+  #work #viewports-img {
+    float: none;
+    width: 30%;
+    height: auto;
+    margin: auto;
+    display: block;
   }
 }
 @media screen and (max-width: 895px) {
@@ -484,13 +500,6 @@ nav a {
     margin: auto;
     text-align: left;
     margin-bottom: 35px;
-  }
-  #work #viewports-img {
-    float: none;
-    width: 30%;
-    height: auto;
-    margin: auto;
-    display: block;
   }
 }
 /*
@@ -522,4 +531,20 @@ nav a {
     text-align: center;
     padding: 60px 20%;
   }
+}
+/*
+****** LABS ******
+*/
+#labs {
+  text-align: center;
+  background-image: url("../_images/meltmedia-office.png");
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+  padding: 100px 0 75px 0;
+  width: 100%;
+}
+#labs h2 {
+  font-size: 2rem;
+  margin-bottom: 25px;
 }
