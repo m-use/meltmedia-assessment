@@ -52,6 +52,9 @@ table {
   border-spacing: 0;
 }
 
+/*
+****** BUTTON ******
+*/
 /* =============================================
  *
  *   FIXED RESPONSIVE NAV
@@ -334,11 +337,15 @@ header {
   /* Close icon */
 }
 
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
 body {
   background-color: #ffffff;
   color: #2f3033;
   font-family: "helvetica", arial, sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 170%;
   font-weight: 300;
 }
@@ -361,6 +368,23 @@ h1 {
   line-height: 3.1rem;
   width: 70%;
   margin-bottom: 5px;
+}
+
+p {
+  margin-bottom: 25px;
+}
+
+.button {
+  font-size: 1.1rem;
+  border: #ffffff 1px solid;
+  padding: 15px 40px;
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all ease 0.8s;
+}
+.button:hover, .button:active {
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 /*

@@ -1,8 +1,12 @@
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
 body {
 	background-color: $white;
 	color: $grey;
 	font-family: $font-primary;
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 	line-height: 170%;
 	font-weight: 300;
 }
@@ -25,6 +29,14 @@ h1 {
 	line-height: 3.1rem;
 	width: 70%;
 	margin-bottom: 5px;
+}
+
+p {
+	margin-bottom: 25px;
+}
+
+.button {
+	@include btn-style($white);
 }
 
 /*
