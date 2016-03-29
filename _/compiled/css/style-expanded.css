@@ -757,3 +757,31 @@ select, input, textarea {
 .send-button:hover, .send-button:active {
   background-color: rgba(47, 48, 51, 0.15);
 }
+
+/*
+****** FOOTER ******
+*/
+footer {
+  background-color: #89b8ea;
+  text-align: center;
+  color: #ffffff;
+  padding: 30px 0;
+}
+
+@media screen and (max-width: 550px) {
+  footer {
+    padding: 20px 0;
+  }
+  footer h5 {
+    font-size: .9rem;
+  }
+}
+@media screen and (min-width: 551px) {
+  footer {
+    padding: 30px 0;
+  }
+
+  h5 {
+    font-size: 1.1rem;
+  }
+}

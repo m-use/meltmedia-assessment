@@ -428,3 +428,32 @@ select, input, textarea {
 	background-color: $white;
 	@include btn-style($grey);
 }
+
+/*
+****** FOOTER ******
+*/
+
+footer {
+	background-color: $brandblue;
+	text-align: center;
+	color: $white;
+	padding: 30px 0;
+}
+
+@media screen and (max-width: 550px) {
+	footer {
+		padding: 20px 0;
+		h5 {
+			font-size: .9rem;
+		}
+	}
+}
+
+@media screen and (min-width: 551px) {
+	footer {
+		padding: 30px 0;
+	}
+	h5 {
+		font-size: 1.1rem;
+	}
+}
