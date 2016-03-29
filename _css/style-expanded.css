@@ -485,3 +485,33 @@ nav a {
     display: block;
   }
 }
+/*
+****** CULTURE ******
+*/
+#culture {
+  text-align: center;
+}
+#culture h2 {
+  color: #89b8ea;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+#culture img {
+  width: 100%;
+  max-width: 595px;
+  height: auto;
+}
+
+@media screen and (max-width: 895px) {
+  #culture {
+    width: 90%;
+    padding: 60px 5%;
+  }
+}
+@media screen and (min-width: 896px) {
+  #culture {
+    width: 60%;
+    text-align: center;
+    padding: 60px 20%;
+  }
+}
