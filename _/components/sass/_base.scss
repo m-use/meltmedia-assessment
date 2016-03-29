@@ -216,8 +216,8 @@ nav a {
 	background-size: cover;
 	background-position: center center;
 	color: $white;
-	padding: 100px 0 75px 0;
-	width: 100%;
+	padding: 100px 5% 75px 5%;
+	width: 90%;
 	h2 {
 		font-size: 2rem;
 		margin-bottom: 25px;
@@ -396,7 +396,7 @@ nav a {
 #contact-form {
 	text-align: center;
 	input[type=text], input[type=email], textarea {
-		border: 2px solid $grey;
+		border: 2px solid #b3b3b3;
 		font-family: $font-primary;
 		font-size: 1.2rem;
 		line-height: 120%;
@@ -426,7 +426,18 @@ select, input, textarea {
 
 .send-button {
 	background-color: $white;
-	@include btn-style($grey);
+	font-size: 1.1rem;
+	border: #b3b3b3 2px solid;
+	padding: 15px 40px;
+	text-decoration: none;
+	color: $grey;
+	display: inline-block;
+	font-weight: 300;
+	cursor: pointer;
+	transition: all ease 0.8s;
+	&:hover, &:active {
+		background-color: transparentize($grey, .85);
+	}
 }
 
 /*

@@ -52,6 +52,10 @@ table {
   border-spacing: 0;
 }
 
+a {
+  outline: 0;
+}
+
 /*
 ****** BUTTON ******
 */
@@ -534,8 +538,8 @@ nav a {
   background-size: cover;
   background-position: center center;
   color: #ffffff;
-  padding: 100px 0 75px 0;
-  width: 100%;
+  padding: 100px 5% 75px 5%;
+  width: 90%;
 }
 #labs h2 {
   font-size: 2rem;
@@ -707,7 +711,7 @@ nav a {
   text-align: center;
 }
 #contact-form input[type=text], #contact-form input[type=email], #contact-form textarea {
-  border: 2px solid #2f3033;
+  border: 2px solid #b3b3b3;
   font-family: "helvetica", arial, sans-serif;
   font-size: 1.2rem;
   line-height: 120%;
@@ -737,7 +741,7 @@ select, input, textarea {
 .send-button {
   background-color: #ffffff;
   font-size: 1.1rem;
-  border: #2f3033 2px solid;
+  border: #b3b3b3 2px solid;
   padding: 15px 40px;
   text-decoration: none;
   color: #2f3033;
