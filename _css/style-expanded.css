@@ -358,7 +358,6 @@ h1 span, h2 span, h3 span, h5 span, h6 span {
 h1 {
   font-size: 2.6rem;
   line-height: 3.1rem;
-  width: 70%;
   margin-bottom: 5px;
 }
 
@@ -421,22 +420,68 @@ nav a {
 /*
 ****** WORK ******
 */
-#work {
-  padding-top: 25px;
+@media screen and (min-width: 896px) {
+  #work {
+    padding-top: 25px;
+  }
+  #work article {
+    width: 40%;
+    float: left;
+    margin-left: 11%;
+  }
+  #work #viewports-img {
+    float: right;
+    width: 35%;
+    height: auto;
+    margin-right: 8%;
+  }
 }
-#work article {
-  width: 40%;
-  float: left;
-  margin-left: 11%;
-  margin-top: 85px;
+@media screen and (min-width: 1116px) {
+  #work article {
+    margin-top: 85px;
+  }
+  #work article h1 {
+    width: 70%;
+  }
 }
-#work article p {
-  font-family: "helvetica", arial, sans-serif;
-  font-weight: 300;
+@media screen and (max-width: 1115px) {
+  #work article {
+    margin-top: 0;
+  }
+  #work article h1 {
+    width: 100%;
+  }
 }
-#work #viewports-img {
-  float: right;
-  width: 35%;
-  height: auto;
-  margin-right: 8%;
+@media screen and (max-width: 650px) {
+  #work article h1 {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 651px) and (max-width: 895px) {
+  #work article h1 {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 895px) {
+  #work article {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  #work article h1 {
+    margin: 10px auto;
+  }
+  #work article p {
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 35px;
+  }
+  #work #viewports-img {
+    float: none;
+    width: 30%;
+    height: auto;
+    margin: auto;
+    display: block;
+  }
 }
