@@ -14,11 +14,7 @@ ASSESSMENT:
 
 - The code can be static, no need for a server.
 
-
-
-OPTIONAL:
-
-- Use a task runner such as grunt or gulp to serve up your breakout locally, with instructions on how to get it running.
+- Optional: Use a task runner such as grunt or gulp to serve up your breakout locally, with instructions on how to get it running.
 
 
 
@@ -45,5 +41,8 @@ Prerequisites: Node, Grunt, and SASS must be installed.
 - $ npm install
 
 - $ grunt
+* You may have to reopen Terminal and navigate back to the project folder if you get "Fatal error: Port 3000 is already in use by another process."
 
 - Enter localhost:3000 into a browser's address bar.
+
+- When finished, enter Control+Z in the command line to stop Grunt.
