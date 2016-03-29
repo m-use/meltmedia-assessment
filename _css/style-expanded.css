@@ -399,7 +399,7 @@ p {
   }
 }
 header {
-  background-color: rgba(72, 72, 72, 0.8);
+  background-color: #484848;
 }
 
 nav a {
@@ -433,15 +433,15 @@ nav a {
 ****** WORK ******
 */
 @media screen and (min-width: 896px) {
-  #work {
+  #work-container {
     padding-top: 25px;
   }
-  #work article {
+  #work-container article {
     width: 40%;
     float: left;
     margin-left: 11%;
   }
-  #work #viewports-img {
+  #work-container #viewports-img {
     float: right;
     width: 35%;
     height: auto;
@@ -449,23 +449,23 @@ nav a {
   }
 }
 @media screen and (min-width: 1116px) {
-  #work article {
+  #work-container article {
     margin-top: 85px;
   }
-  #work article h1 {
+  #work-container article h1 {
     width: 70%;
   }
 }
 @media screen and (max-width: 1115px) {
-  #work article {
+  #work-container article {
     margin-top: 0;
   }
-  #work article h1 {
+  #work-container article h1 {
     width: 100%;
   }
 }
 @media screen and (max-width: 650px) {
-  #work article h1 {
+  #work-container article h1 {
     width: 90%;
   }
 
@@ -478,10 +478,10 @@ nav a {
   }
 }
 @media screen and (min-width: 651px) and (max-width: 895px) {
-  #work article h1 {
+  #work-container article h1 {
     width: 70%;
   }
-  #work #viewports-img {
+  #work-container #viewports-img {
     float: none;
     width: 30%;
     height: auto;
@@ -490,18 +490,18 @@ nav a {
   }
 }
 @media screen and (max-width: 895px) {
-  #work article {
+  #work-container article {
     float: none;
     width: 100%;
     text-align: center;
   }
-  #work article h1 {
+  #work-container article h1 {
     margin: 10px auto;
   }
-  #work article p {
+  #work-container article p {
     width: 90%;
     margin: auto;
-    text-align: left;
+    text-align: center;
     margin-bottom: 35px;
   }
 }
@@ -556,7 +556,7 @@ nav a {
 @media screen and (max-width: 895px) {
   #thoughts {
     width: 90%;
-    padding: 60px 5%;
+    padding: 50px 5%;
   }
 }
 @media screen and (min-width: 896px) {
