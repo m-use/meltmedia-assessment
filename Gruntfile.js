@@ -37,6 +37,18 @@ module.exports = function(grunt) {
 			}
 		},
 
+		/* Connect task*/
+		connect: {
+			server: {
+				options: {
+					hostname: 'localhost',
+					port: 3000,
+					base: '',
+					livereload: true
+				}
+			}
+		},
+
 		/* Watch task */
 		watch: {
 			options: { livereload: true },
@@ -53,5 +65,6 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-autoprefixer');
 	grunt.loadNpmTasks('grunt-contrib-sass');
 	grunt.loadNpmTasks('grunt-contrib-watch');
-	grunt.registerTask('default', ['watch']);
+	grunt.loadNpmTasks('grunt-contrib-connect');
+	grunt.registerTask('default', ['connect', 'watch']);
 }
