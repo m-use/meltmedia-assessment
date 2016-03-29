@@ -361,17 +361,24 @@ h1 {
   margin-bottom: 5px;
 }
 
+h2.on-white-head {
+  color: #89b8ea;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
 p {
   margin-bottom: 25px;
 }
 
 .button {
   font-size: 1.1rem;
-  border: #ffffff 1px solid;
+  border: #ffffff 2px solid;
   padding: 15px 40px;
   text-decoration: none;
   color: #ffffff;
   display: inline-block;
+  font-weight: 300;
   cursor: pointer;
   transition: all ease 0.8s;
 }
@@ -500,11 +507,6 @@ nav a {
 #culture {
   text-align: center;
 }
-#culture h2 {
-  color: #89b8ea;
-  font-size: 2rem;
-  margin-bottom: 30px;
-}
 #culture img {
   width: 100%;
   max-width: 595px;
@@ -520,7 +522,6 @@ nav a {
 @media screen and (min-width: 896px) {
   #culture {
     width: 60%;
-    text-align: center;
     padding: 60px 20%;
   }
 }
@@ -658,4 +659,93 @@ nav a {
 #location-map #contact-details ul a:hover, #location-map #contact-details ul a:active {
   text-decoration: none;
   text-shadow: #000000 2px 2px;
+}
+
+@media screen and (min-width: 896px) {
+  #contact-form {
+    width: 72%;
+    padding: 60px 14%;
+  }
+}
+@media screen and (max-width: 895px) {
+  #contact-form {
+    width: 90%;
+    padding: 60px 5%;
+  }
+}
+@media screen and (min-width: 626px) {
+  #contact-name {
+    width: 44%;
+    float: left;
+  }
+
+  #contact-email {
+    width: 44%;
+    float: right;
+  }
+
+  input[type=text], input[type=email], textarea {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 625px) {
+  #contact-name {
+    width: 95.5%;
+    float: none;
+  }
+
+  #contact-email {
+    width: 95.5%;
+    float: none;
+  }
+
+  input[type=text], input[type=email], textarea {
+    margin-bottom: 10px;
+  }
+}
+#contact-form {
+  text-align: center;
+}
+#contact-form input[type=text], #contact-form input[type=email], #contact-form textarea {
+  border: 2px solid #2f3033;
+  font-family: "helvetica", arial, sans-serif;
+  font-size: 1.2rem;
+  line-height: 120%;
+  font-weight: 300;
+  color: #2f3033;
+  padding: 10px 2%;
+  transition: all ease 0.8s !important;
+}
+#contact-form input[type=text]:focus, #contact-form input[type=email]:focus, #contact-form textarea:focus {
+  border: #89b8ea 2px solid;
+  box-shadow: 0 0 0;
+}
+#contact-form #contact-superpower {
+  width: 95.5%;
+  clear: both;
+}
+#contact-form #contact-mission {
+  width: 95.5%;
+  height: 150px;
+}
+
+select, input, textarea {
+  box-shadow: none !important;
+  outline: 0 !important;
+}
+
+.send-button {
+  background-color: #ffffff;
+  font-size: 1.1rem;
+  border: #2f3033 2px solid;
+  padding: 15px 40px;
+  text-decoration: none;
+  color: #2f3033;
+  display: inline-block;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all ease 0.8s;
+}
+.send-button:hover, .send-button:active {
+  background-color: rgba(47, 48, 51, 0.15);
 }

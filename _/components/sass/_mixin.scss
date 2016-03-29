@@ -4,11 +4,12 @@
 
 @mixin btn-style($btn-color: #ffffff) {
 	font-size: 1.1rem;
-	border: $white 1px solid;
+	border: $btn-color 2px solid;
 	padding: 15px 40px;
 	text-decoration: none;
-	color: $white;
+	color: $btn-color;
 	display: inline-block;
+	font-weight: 300;
 	cursor: pointer;
 	transition: all ease 0.8s;
 	&:hover, &:active {

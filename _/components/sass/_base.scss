@@ -30,6 +30,12 @@ h1 {
 	margin-bottom: 5px;
 }
 
+h2.on-white-head {
+	color: $brandblue;
+	font-size: 2rem;
+	margin-bottom: 30px;
+}
+
 p {
 	margin-bottom: 25px;
 }
@@ -179,11 +185,6 @@ nav a {
 
 #culture {
 	text-align: center;
-	h2 {
-		color: $brandblue;
-		font-size: 2rem;
-		margin-bottom: 30px;
-	}
 	img {
 		width: 100%;
 		max-width: 595px;
@@ -201,7 +202,6 @@ nav a {
 @media screen and (min-width: 896px) {
 	#culture {
 		width: 60%;
-		text-align: center;
 		padding: 60px 20%;
 	}
 }
@@ -349,4 +349,82 @@ nav a {
 			}
 		}
 	}
+}
+
+@media screen and (min-width: 896px) {
+	#contact-form {
+		width: 72%;
+		padding: 60px 14%;
+	}
+}
+
+@media screen and (max-width: 895px) {
+	#contact-form {
+		width: 90%;
+		padding: 60px 5%;
+	}
+}
+
+@media screen and (min-width: 626px) {
+	#contact-name {
+		width: 44%;
+		float: left;
+	}
+	#contact-email {
+		width: 44%;
+		float: right;
+	}
+	input[type=text], input[type=email], textarea {
+		margin-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 625px) {
+	#contact-name {
+		width: 95.5%;
+		float: none;
+	}
+	#contact-email {
+		width: 95.5%;
+		float: none;
+	}
+	input[type=text], input[type=email], textarea {
+		margin-bottom: 10px;
+	}
+}
+
+#contact-form {
+	text-align: center;
+	input[type=text], input[type=email], textarea {
+		border: 2px solid $grey;
+		font-family: $font-primary;
+		font-size: 1.2rem;
+		line-height: 120%;
+		font-weight: 300;
+		color: $grey;
+		padding: 10px 2%;
+		transition: all ease 0.8s !important;
+		&:focus {
+			border: $brandblue 2px solid;
+			box-shadow: 0 0 0;
+		}
+	}
+	#contact-superpower {
+		width: 95.5%;
+		clear: both;
+	}
+	#contact-mission {
+		width: 95.5%;
+		height: 150px;
+	}
+}
+
+select, input, textarea {
+	box-shadow: none !important;
+	outline: 0 !important;
+}
+
+.send-button {
+	background-color: $white;
+	@include btn-style($grey);
 }
