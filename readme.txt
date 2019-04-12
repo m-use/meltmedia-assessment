@@ -1,49 +1,18 @@
-PROJECT:	Technical Assessment
-
-AUTHOR:		Lindsey Baker
-
-DATE:		March 26, 2016
-
-
-
-ASSESSMENT:
-
-- Your breakout should be fully responsive, with break points where appropriate.
-
-- You don't need to be pixel perfect. Be creative! We won't penalize you for differing from the comp where it makes sense or where you think improvements should be made. As this test is responsive you'll likely have to make some choices about how the content should look at various screen sizes. Let's see what you come up with!
-
-- The code can be static, no need for a server.
-
-- Optional: Use a task runner such as grunt or gulp to serve up your breakout locally, with instructions on how to get it running.
-
-
-
-DESIGN CHANGES:
-
-- Added a period to the end of each h2 for more consistency.
-
-- Changed "We create a experiences..." to "We create experiences..." in the Culture section.
-
-- Changed "Lets be friends" to "Let's be friends" in the Contact section.
-
-- Changed nav design so that the links are visible as you scroll down.
-
-- Removed "Home" main nav link because it takes you to the same section as the "Work" link. The logo will bring you to the top as well.
-
-
-
 INSTRUCTIONS:
-
-Prerequisites: Node, and SASS must be installed.
+* Prerequisites: Node, and SASS must be installed.
 
 - Navigate to the project folder in the command line.
-
 - $ npm install -g grunt-cli
-
 - $ npm install
-
 - $ grunt
-
 - Enter localhost:3000 into a browser's address bar.
-
 - When finished, enter Control+C in the command line to stop Grunt.
+
+
+BUGS:
+- No favicon
+- “Thougts” in the nav is misspelled - should be “Thoughts”
+- “What We Do” image doesn’t resize for mobile
+- Extra “>” in the “Get in touch” section
+- Form doesn’t submit
+- “Superheros” in the footer is misspelled - should be “Superheroes”
