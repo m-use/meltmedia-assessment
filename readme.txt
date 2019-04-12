@@ -1,5 +1,5 @@
 INSTRUCTIONS:
-* Prerequisites: Node, and SASS must be installed.
+* Prerequisites: Node must be installed.
 
 - Navigate to the project folder in the command line.
 - $ npm install -g grunt-cli
