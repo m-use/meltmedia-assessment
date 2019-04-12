@@ -34,15 +34,16 @@ DESIGN CHANGES:
 
 INSTRUCTIONS:
 
-Prerequisites: Node, Grunt, and SASS must be installed.
+Prerequisites: Node, and SASS must be installed.
 
 - Navigate to the project folder in the command line.
+
+- $ npm install -g grunt-cli
 
 - $ npm install
 
 - $ grunt
-* You may have to reopen Terminal and navigate back to the project folder if you get "Fatal error: Port 3000 is already in use by another process."
 
 - Enter localhost:3000 into a browser's address bar.
 
-- When finished, enter Control+Z in the command line to stop Grunt.
+- When finished, enter Control+C in the command line to stop Grunt.
